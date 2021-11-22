@@ -1,14 +1,16 @@
 # miniWhip
+e-field antenna optimized for low frequencies  
+lower corner frequency limited by bias-T, with 470mH below 10kHz  
+upper corner frequency arround 70MHz  
+supply Voltage 5-15Vs
 
-optimized miniWhip antenna for low frequencies.
+## Schematic
+![Schematic](./miniWhip.svg)
+
+## Pictures
+![Render front](./pictures/render_front.png)
+![Render back](./pictures/render_back.png)
 
 
-Supply:
-5-15V more Voltage, better dynamic range, 
-
-
-
-verification of operation:
-connect one port of VNA with 5-10pF to the input pin (without shielding), transmission should be somehow flat (near 0dB) up to 70MHz.
-
-
+## License
+project is published unter GPLv2 license
